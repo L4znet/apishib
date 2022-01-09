@@ -6,7 +6,7 @@ router.get('/', async(req, res) => {
     try {
         res.json({
             status:200,
-            message:'Hello world'
+            message:'Hello World lol'
         })
     } catch (error) {
         console.error(error)
